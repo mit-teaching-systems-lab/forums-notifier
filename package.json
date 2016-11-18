@@ -1,4 +1,13 @@
 {
   "name": "forums-notifier",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "multer": "^1.2.0",
+    "superagent": "^2.3.0"
+  }
 }
